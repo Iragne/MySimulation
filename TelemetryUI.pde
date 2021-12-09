@@ -45,11 +45,11 @@ class TelemetryUI {
   }
   
   void initImages(){
-    side_view_z = loadImage("side-plan.png");
+    side_view_z = loadImage("side_plan.png");
     side_view_z.resize(100,100);
-    side_view_y = loadImage("top-plan.jpg");
+    side_view_y = loadImage("top_plan.png");
     side_view_y.resize(100,100);
-    side_view_x = loadImage("front-plan.png");
+    side_view_x = loadImage("front_plan.png");
     side_view_x.resize(100,100);
   }
   
